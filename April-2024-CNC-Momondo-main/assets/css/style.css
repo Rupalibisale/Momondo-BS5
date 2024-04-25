@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 15PX;
+}
+/* nav section start*/
+.fs-50{
+    font-size: 50px !important;
+}
+.bg-deepblue{
+    background: #141F3B;
+}
+.bg-pink{
+    background: #4b3473;
+}
+.bg-pink2{
+    background: #df3272;
+}
+.bg-pink3{
+    background: #1F1631;
+}
+.bg-danger3{
+    background: #5C327A;
+}
+nav select{
+    background: none;
+    color: white;
+    border: none;
+}
+.text-orange{
+    color:orangered;
+}
+/* nav section end*/
+/* hero section start*/
+/* hero section end*/
+.banner{
+    background: url(../img/bannerimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-pills .nav-link{
+    background-color: #4b3473;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #df3272;
+}
+/* fun section start */
+.fun{
+    color:#fff;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/fun.png);
+    background-size: cover;
+    background-position: center;
+}
+/* fun section end */
+/* newsletter start */
+.newsletter{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/flight.png);
+    background-size: cover;
+    background-position: center;
+}
+/* newsletter end */
+.imgwidth{
+    width: 30px;
+}
+.footer{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/flights.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footercontent ul{
+    display: flex;
+    margin: 5px;
+    
+}
+.footercontent ul li{
+    
+    padding:0px 10px;
+    
+}
+.iconImg{
+    width:15px;
+}
+
